@@ -53,6 +53,19 @@ class DefaultControllerTest extends WebTestCase
 
     public function testRegisterAction()
     {
+        $client = static::createClient();
 
+        $crawler = $client->request('GET', '/register');
+
+        $this->assertEquals(200, $client->getResponse()->getStatusCode());
+    }
+
+    public function testLoginAction()
+    {
+        $client = static::createClient();
+
+        $crawler = $client->request('GET', '/login');
+
+        $this->assertEquals(200, $client->getResponse()->getStatusCode());
     }
 }
