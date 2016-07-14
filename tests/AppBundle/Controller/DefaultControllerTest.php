@@ -24,6 +24,32 @@ class DefaultControllerTest extends WebTestCase
 
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
         $this->assertContains('Hello World', $crawler->filter('h1')->text());
+    }
+
+
+    public function testSend()
+    {
+        $client = static::createClient();
+
+        $email = 'test@example.com';
+
+        $crawler = $client->request('GET', '/send', [
+            'email' => $email
+        ]);
+
+        $this->assertEquals(200, $client->getResponse()->getStatusCode());
+        $this->assertContains('Sending an email to ' . $email . ' using sendmail', $crawler->filter('div')->text());
+
+
+        $email = 'test2@example.com';
+
+        $crawler = $client->request('GET', '/send', [
+            'email' => $email
+        ]);
+
+        $this->assertEquals(200, $client->getResponse()->getStatusCode());
+        $this->assertContains('Sending an email to ' . $email . ' using sendmail', $crawler->filter('div')->text());
+
 
     }
 }

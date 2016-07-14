@@ -26,4 +26,18 @@ class DefaultController extends Controller
     {
         return $this->render('default/hello.html.twig');
     }
+
+    /**
+     * @Route("/send", name="send")
+     */
+    public function sendEmailServiceAction(Request $request)
+    {
+        $mailer = $this->get('app.mailer');
+
+        $res = $mailer->send($request->query->get('email'), "");
+
+        return $this->render('default/send.html.twig', [
+            'text' => $res
+        ]);
+    }
 }
