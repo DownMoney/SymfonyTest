@@ -23,7 +23,7 @@ class DefaultControllerTest extends WebTestCase
         $crawler = $client->request('GET', '/hello');
 
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
-        $this->assertContains('Hello World', $crawler->filter('#container h1')->text());
+        $this->assertContains('Hello World', $crawler->filter('h1')->text());
 
     }
 }
