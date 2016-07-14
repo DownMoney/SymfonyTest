@@ -49,7 +49,10 @@ class DefaultControllerTest extends WebTestCase
 
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
         $this->assertContains('Sending an email to ' . $email . ' using sendmail', $crawler->filter('div')->text());
+    }
 
+    public function testRegisterAction()
+    {
 
     }
 }
