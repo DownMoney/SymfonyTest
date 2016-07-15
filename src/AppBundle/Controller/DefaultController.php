@@ -103,7 +103,6 @@ class DefaultController extends Controller
             if ($token) {
 
                 $this->get("security.token_storage")->setToken($token);
-
                 $event = new InteractiveLoginEvent($request, $token);
                 $this->get("event_dispatcher")->dispatch("security.interactive_login", $event);
 
@@ -117,10 +116,14 @@ class DefaultController extends Controller
     /**
      * @Route("/user", name="user")
      */
-    public
-    function userAction(Request $request)
+    public function userAction(Request $request)
     {
-        $user = $this->get("security.token_storage")->getToken()->getUser();
-        return new Response('<html><body>You have been authenticated as  ' . $user->getUsername() . '!</body></html>');
+        if ($this->get("security.token_storage")->getToken()->getUser() !== "anon.") {
+            $user = $this->get("security.token_storage")->getToken()->getUser();
+            return new Response('<html><body>You have been authenticated as  ' . $user->getUsername() . '!</body></html>');
+        } else {
+            return $this->redirectToRoute('login');
+
+        }
     }
 }
