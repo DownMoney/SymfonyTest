@@ -97,7 +97,7 @@ class DefaultController extends Controller
         if ($form->isSubmitted()) {
             $em = $this->getDoctrine()->getManager();
             $encoder = $this->container->get('security.password_encoder');
- 
+
             $token = Authenticator::login($em, $user->getEmail(), $user->getPassword(), $encoder);
 
             if ($token) {
