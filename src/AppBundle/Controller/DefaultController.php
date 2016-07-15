@@ -120,6 +120,8 @@ class DefaultController extends Controller
     {
         if ($this->get("security.token_storage")->getToken()->getUser() !== "anon.") {
             $user = $this->get("security.token_storage")->getToken()->getUser();
+            var_dump($user);
+
             return new Response('<html><body>You have been authenticated as  ' . $user->getUsername() . '!</body></html>');
         } else {
             return $this->redirectToRoute('login');
