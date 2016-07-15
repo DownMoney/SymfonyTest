@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock '3.3.5'
+lock '3.4.1'
 
 set :application, 'Symfony_Test'
 set :repo_url, 'git@github.com:DownMoney/SymfonyTest.git'
