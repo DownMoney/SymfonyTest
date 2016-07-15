@@ -104,13 +104,10 @@ class DefaultControllerTest extends WebTestCase
 
     private function logIn()
     {
-        $user = new User();
-        $user->setEmail('admin@test.com');
-        $user->setId(1);
         // the firewall context (defaults to the firewall name)
         $firewall = 'main';
 
-        $token = new UsernamePasswordToken($user, '', $firewall, array('ROLE_USER'));
+        $token = new UsernamePasswordToken('admin_test', '', $firewall, array('ROLE_USER'));
         $this->session->set('_security_' . $firewall, serialize($token));
         $this->session->save();
 

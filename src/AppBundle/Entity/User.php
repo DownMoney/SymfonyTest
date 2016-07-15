@@ -44,16 +44,6 @@ class User implements UserInterface, Serializable
     protected $password;
 
     /**
-     * @param mixed $id
-     */
-    public function setId($id)
-    {
-        $this->id = $id;
-    }
-
-
-
-    /**
      * @return mixed
      */
     public function getName()
