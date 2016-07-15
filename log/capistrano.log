@@ -1,0 +1,716 @@
+# Logfile created on 2016-07-15 11:06:48 +0100 by logger.rb/41954
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-15 11:06:48 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [69abe158] Running /usr/bin/env mkdir -p /tmp/my_app_name/ as ubuntu@62.4.19.87
+ DEBUG [69abe158] Command: /usr/bin/env mkdir -p /tmp/my_app_name/
+  INFO [69abe158] Finished in 0.407 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/my_app_name/git-ssh.sh 0.0%
+  INFO Uploading /tmp/my_app_name/git-ssh.sh 100.0%
+  INFO [6b897d2c] Running /usr/bin/env chmod +rx /tmp/my_app_name/git-ssh.sh as ubuntu@62.4.19.87
+ DEBUG [6b897d2c] Command: /usr/bin/env chmod +rx /tmp/my_app_name/git-ssh.sh
+  INFO [6b897d2c] Finished in 0.027 seconds with exit status 0 (successful).
+  INFO [e321abb2] Running /usr/bin/env git ls-remote --heads git@example.com:me/my_repo.git as ubuntu@62.4.19.87
+ DEBUG [e321abb2] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/my_app_name/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@example.com:me/my_repo.git )
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-15 11:07:51 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b2a6ba66] Running /usr/bin/env mkdir -p /tmp/Symfony_Test/ as ubuntu@62.4.19.87
+ DEBUG [b2a6ba66] Command: /usr/bin/env mkdir -p /tmp/Symfony_Test/
+  INFO [b2a6ba66] Finished in 0.308 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/Symfony_Test/git-ssh.sh 0.0%
+  INFO Uploading /tmp/Symfony_Test/git-ssh.sh 100.0%
+  INFO [0ef6f9c6] Running /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh as ubuntu@62.4.19.87
+ DEBUG [0ef6f9c6] Command: /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh
+  INFO [0ef6f9c6] Finished in 0.027 seconds with exit status 0 (successful).
+  INFO [e4c4125a] Running /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git as ubuntu@62.4.19.87
+ DEBUG [e4c4125a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git )
+ DEBUG [e4c4125a] 	Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+ DEBUG [e4c4125a] 	Permission denied (publickey).
+ DEBUG [e4c4125a] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-15 11:09:34 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [fb49f8c3] Running /usr/bin/env mkdir -p /tmp/Symfony_Test/ as ubuntu@62.4.19.87
+ DEBUG [fb49f8c3] Command: /usr/bin/env mkdir -p /tmp/Symfony_Test/
+  INFO [fb49f8c3] Finished in 0.309 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/Symfony_Test/git-ssh.sh 0.0%
+  INFO Uploading /tmp/Symfony_Test/git-ssh.sh 100.0%
+  INFO [fd723b96] Running /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh as ubuntu@62.4.19.87
+ DEBUG [fd723b96] Command: /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh
+  INFO [fd723b96] Finished in 0.027 seconds with exit status 0 (successful).
+  INFO [3fc13c49] Running /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git as ubuntu@62.4.19.87
+ DEBUG [3fc13c49] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git )
+ DEBUG [3fc13c49] 	1fde42c11335e6743a7330d993075563103d7001	refs/heads/master
+  INFO [3fc13c49] Finished in 1.208 seconds with exit status 0 (successful).
+  INFO [f9d9f081] Running /usr/bin/env mkdir -p /var/www/Symfony_Test/shared /var/www/Symfony_Test/releases as ubuntu@62.4.19.87
+ DEBUG [f9d9f081] Command: /usr/bin/env mkdir -p /var/www/Symfony_Test/shared /var/www/Symfony_Test/releases
+ DEBUG [f9d9f081] 	mkdir: 
+ DEBUG [f9d9f081] 	cannot create directory ‘/var/www’
+ DEBUG [f9d9f081] 	: Permission denied
+ DEBUG [f9d9f081] 	
+ DEBUG [f9d9f081] 	mkdir: 
+ DEBUG [f9d9f081] 	cannot create directory ‘/var/www’
+ DEBUG [f9d9f081] 	: Permission denied
+ DEBUG [f9d9f081] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-15 11:16:16 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a4e0039b] Running /usr/bin/env mkdir -p /tmp/Symfony_Test/ as ubuntu@62.4.19.87
+ DEBUG [a4e0039b] Command: /usr/bin/env mkdir -p /tmp/Symfony_Test/
+  INFO [a4e0039b] Finished in 0.309 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/Symfony_Test/git-ssh.sh 0.0%
+  INFO Uploading /tmp/Symfony_Test/git-ssh.sh 100.0%
+  INFO [f66b8277] Running /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh as ubuntu@62.4.19.87
+ DEBUG [f66b8277] Command: /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh
+  INFO [f66b8277] Finished in 0.028 seconds with exit status 0 (successful).
+  INFO [d83229a4] Running /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git as ubuntu@62.4.19.87
+ DEBUG [d83229a4] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git )
+ DEBUG [d83229a4] 	Warning: Permanently added the RSA host key for IP address '192.30.253.113' to the list of known hosts.
+ DEBUG [d83229a4] 	1fde42c11335e6743a7330d993075563103d7001	refs/heads/master
+  INFO [d83229a4] Finished in 1.497 seconds with exit status 0 (successful).
+  INFO [389f92bd] Running /usr/bin/env mkdir -p /var/www/Symfony_Test/shared /var/www/Symfony_Test/releases as ubuntu@62.4.19.87
+ DEBUG [389f92bd] Command: /usr/bin/env mkdir -p /var/www/Symfony_Test/shared /var/www/Symfony_Test/releases
+ DEBUG [389f92bd] 	mkdir: 
+ DEBUG [389f92bd] 	cannot create directory ‘/var/www/Symfony_Test’
+ DEBUG [389f92bd] 	: Permission denied
+ DEBUG [389f92bd] 	
+ DEBUG [389f92bd] 	mkdir: 
+ DEBUG [389f92bd] 	cannot create directory ‘/var/www/Symfony_Test’
+ DEBUG [389f92bd] 	: Permission denied
+ DEBUG [389f92bd] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-15 11:17:53 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [78171774] Running /usr/bin/env mkdir -p /tmp/Symfony_Test/ as ubuntu@62.4.19.87
+ DEBUG [78171774] Command: /usr/bin/env mkdir -p /tmp/Symfony_Test/
+  INFO [78171774] Finished in 0.310 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/Symfony_Test/git-ssh.sh 0.0%
+  INFO Uploading /tmp/Symfony_Test/git-ssh.sh 100.0%
+  INFO [dbb64b95] Running /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh as ubuntu@62.4.19.87
+ DEBUG [dbb64b95] Command: /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh
+  INFO [dbb64b95] Finished in 0.027 seconds with exit status 0 (successful).
+  INFO [424af1bd] Running /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git as ubuntu@62.4.19.87
+ DEBUG [424af1bd] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git )
+ DEBUG [424af1bd] 	1fde42c11335e6743a7330d993075563103d7001	refs/heads/master
+  INFO [424af1bd] Finished in 1.656 seconds with exit status 0 (successful).
+  INFO [f61ac441] Running /usr/bin/env mkdir -p /var/www/Symfony_Test/shared /var/www/Symfony_Test/releases as ubuntu@62.4.19.87
+ DEBUG [f61ac441] Command: /usr/bin/env mkdir -p /var/www/Symfony_Test/shared /var/www/Symfony_Test/releases
+ DEBUG [f61ac441] 	mkdir: 
+ DEBUG [f61ac441] 	cannot create directory ‘/var/www/Symfony_Test/shared’
+ DEBUG [f61ac441] 	: Permission denied
+ DEBUG [f61ac441] 	
+ DEBUG [f61ac441] 	mkdir: 
+ DEBUG [f61ac441] 	cannot create directory ‘/var/www/Symfony_Test/releases’
+ DEBUG [f61ac441] 	: Permission denied
+ DEBUG [f61ac441] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-15 11:18:19 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [641821b9] Running /usr/bin/env mkdir -p /tmp/Symfony_Test/ as ubuntu@62.4.19.87
+ DEBUG [641821b9] Command: /usr/bin/env mkdir -p /tmp/Symfony_Test/
+  INFO [641821b9] Finished in 0.333 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/Symfony_Test/git-ssh.sh 0.0%
+  INFO Uploading /tmp/Symfony_Test/git-ssh.sh 100.0%
+  INFO [2dc292cb] Running /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh as ubuntu@62.4.19.87
+ DEBUG [2dc292cb] Command: /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh
+  INFO [2dc292cb] Finished in 0.029 seconds with exit status 0 (successful).
+  INFO [1a86edc8] Running /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git as ubuntu@62.4.19.87
+ DEBUG [1a86edc8] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git )
+ DEBUG [1a86edc8] 	1fde42c11335e6743a7330d993075563103d7001	refs/heads/master
+  INFO [1a86edc8] Finished in 1.240 seconds with exit status 0 (successful).
+  INFO [1ea6d3db] Running /usr/bin/env mkdir -p /var/www/Symfony_Test/shared /var/www/Symfony_Test/releases as ubuntu@62.4.19.87
+ DEBUG [1ea6d3db] Command: /usr/bin/env mkdir -p /var/www/Symfony_Test/shared /var/www/Symfony_Test/releases
+ DEBUG [1ea6d3db] 	mkdir: 
+ DEBUG [1ea6d3db] 	cannot create directory ‘/var/www/Symfony_Test’
+ DEBUG [1ea6d3db] 	: Permission denied
+ DEBUG [1ea6d3db] 	
+ DEBUG [1ea6d3db] 	mkdir: 
+ DEBUG [1ea6d3db] 	cannot create directory ‘/var/www/Symfony_Test’
+ DEBUG [1ea6d3db] 	: Permission denied
+ DEBUG [1ea6d3db] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-15 11:18:46 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [872efa12] Running /usr/bin/env mkdir -p /tmp/Symfony_Test/ as ubuntu@62.4.19.87
+ DEBUG [872efa12] Command: /usr/bin/env mkdir -p /tmp/Symfony_Test/
+  INFO [872efa12] Finished in 0.425 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/Symfony_Test/git-ssh.sh 0.0%
+  INFO Uploading /tmp/Symfony_Test/git-ssh.sh 100.0%
+  INFO [a255db71] Running /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh as ubuntu@62.4.19.87
+ DEBUG [a255db71] Command: /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh
+  INFO [a255db71] Finished in 0.030 seconds with exit status 0 (successful).
+  INFO [5a070613] Running /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git as ubuntu@62.4.19.87
+ DEBUG [5a070613] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git )
+ DEBUG [5a070613] 	1fde42c11335e6743a7330d993075563103d7001	refs/heads/master
+  INFO [5a070613] Finished in 1.348 seconds with exit status 0 (successful).
+  INFO [ce8c41e9] Running /usr/bin/env mkdir -p /var/www/Symfony_Test/shared /var/www/Symfony_Test/releases as ubuntu@62.4.19.87
+ DEBUG [ce8c41e9] Command: /usr/bin/env mkdir -p /var/www/Symfony_Test/shared /var/www/Symfony_Test/releases
+ DEBUG [ce8c41e9] 	mkdir: 
+ DEBUG [ce8c41e9] 	cannot create directory ‘/var/www/Symfony_Test’
+ DEBUG [ce8c41e9] 	: Permission denied
+ DEBUG [ce8c41e9] 	
+ DEBUG [ce8c41e9] 	mkdir: 
+ DEBUG [ce8c41e9] 	cannot create directory ‘/var/www/Symfony_Test’
+ DEBUG [ce8c41e9] 	: Permission denied
+ DEBUG [ce8c41e9] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-15 11:19:26 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6e68d66e] Running /usr/bin/env mkdir -p /tmp/Symfony_Test/ as ubuntu@62.4.19.87
+ DEBUG [6e68d66e] Command: /usr/bin/env mkdir -p /tmp/Symfony_Test/
+  INFO [6e68d66e] Finished in 0.376 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/Symfony_Test/git-ssh.sh 0.0%
+  INFO Uploading /tmp/Symfony_Test/git-ssh.sh 100.0%
+  INFO [f3dfb2f3] Running /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh as ubuntu@62.4.19.87
+ DEBUG [f3dfb2f3] Command: /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh
+  INFO [f3dfb2f3] Finished in 0.046 seconds with exit status 0 (successful).
+  INFO [f9192b3f] Running /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git as ubuntu@62.4.19.87
+ DEBUG [f9192b3f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git )
+ DEBUG [f9192b3f] 	1fde42c11335e6743a7330d993075563103d7001	refs/heads/master
+  INFO [f9192b3f] Finished in 1.545 seconds with exit status 0 (successful).
+  INFO [0fc3229f] Running /usr/bin/env mkdir -p /var/www/Symfony_Test/shared /var/www/Symfony_Test/releases as ubuntu@62.4.19.87
+ DEBUG [0fc3229f] Command: /usr/bin/env mkdir -p /var/www/Symfony_Test/shared /var/www/Symfony_Test/releases
+ DEBUG [0fc3229f] 	mkdir: 
+ DEBUG [0fc3229f] 	cannot create directory ‘/var/www/Symfony_Test’
+ DEBUG [0fc3229f] 	: Permission denied
+ DEBUG [0fc3229f] 	
+ DEBUG [0fc3229f] 	mkdir: 
+ DEBUG [0fc3229f] 	cannot create directory ‘/var/www/Symfony_Test’
+ DEBUG [0fc3229f] 	: Permission denied
+ DEBUG [0fc3229f] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-15 11:21:14 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [aaf3bddb] Running /usr/bin/env mkdir -p /tmp/Symfony_Test/ as ubuntu@62.4.19.87
+ DEBUG [aaf3bddb] Command: /usr/bin/env mkdir -p /tmp/Symfony_Test/
+  INFO [aaf3bddb] Finished in 0.306 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/Symfony_Test/git-ssh.sh 0.0%
+  INFO Uploading /tmp/Symfony_Test/git-ssh.sh 100.0%
+  INFO [a1aaaf57] Running /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh as ubuntu@62.4.19.87
+ DEBUG [a1aaaf57] Command: /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh
+  INFO [a1aaaf57] Finished in 0.030 seconds with exit status 0 (successful).
+  INFO [a575fb05] Running /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git as ubuntu@62.4.19.87
+ DEBUG [a575fb05] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git )
+ DEBUG [a575fb05] 	1fde42c11335e6743a7330d993075563103d7001	refs/heads/master
+  INFO [a575fb05] Finished in 1.264 seconds with exit status 0 (successful).
+  INFO [72ed9056] Running /usr/bin/env mkdir -p /var/www/Symfony_Test/shared /var/www/Symfony_Test/releases as ubuntu@62.4.19.87
+ DEBUG [72ed9056] Command: /usr/bin/env mkdir -p /var/www/Symfony_Test/shared /var/www/Symfony_Test/releases
+  INFO [72ed9056] Finished in 0.152 seconds with exit status 0 (successful).
+ DEBUG [64e2f081] Running [ -f /var/www/Symfony_Test/current/REVISION ] as ubuntu@62.4.19.87
+ DEBUG [64e2f081] Command: [ -f /var/www/Symfony_Test/current/REVISION ]
+ DEBUG [64e2f081] Finished in 0.120 seconds with exit status 1 (failed).
+ DEBUG [4c396bdd] Running [ -f /var/www/Symfony_Test/repo/HEAD ] as ubuntu@62.4.19.87
+ DEBUG [4c396bdd] Command: [ -f /var/www/Symfony_Test/repo/HEAD ]
+ DEBUG [4c396bdd] Finished in 0.028 seconds with exit status 1 (failed).
+ DEBUG [cd188984] Running if test ! -d /var/www/Symfony_Test; then echo "Directory does not exist '/var/www/Symfony_Test'" 1>&2; false; fi as ubuntu@62.4.19.87
+ DEBUG [cd188984] Command: if test ! -d /var/www/Symfony_Test; then echo "Directory does not exist '/var/www/Symfony_Test'" 1>&2; false; fi
+ DEBUG [cd188984] Finished in 0.141 seconds with exit status 0 (successful).
+  INFO [b77409e4] Running /usr/bin/env git clone --mirror git@github.com:DownMoney/SymfonyTest.git /var/www/Symfony_Test/repo as ubuntu@62.4.19.87
+ DEBUG [b77409e4] Command: cd /var/www/Symfony_Test && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git clone --mirror git@github.com:DownMoney/SymfonyTest.git /var/www/Symfony_Test/repo )
+ DEBUG [b77409e4] 	Cloning into bare repository '/var/www/Symfony_Test/repo'...
+  INFO [b77409e4] Finished in 3.170 seconds with exit status 0 (successful).
+ DEBUG [8d6758c4] Running if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi as ubuntu@62.4.19.87
+ DEBUG [8d6758c4] Command: if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi
+ DEBUG [8d6758c4] Finished in 0.027 seconds with exit status 0 (successful).
+  INFO [b7c07fce] Running /usr/bin/env git remote update --prune as ubuntu@62.4.19.87
+ DEBUG [b7c07fce] Command: cd /var/www/Symfony_Test/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [b7c07fce] 	Fetching origin
+  INFO [b7c07fce] Finished in 1.353 seconds with exit status 0 (successful).
+ DEBUG [73adfcb9] Running if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi as ubuntu@62.4.19.87
+ DEBUG [73adfcb9] Command: if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi
+ DEBUG [73adfcb9] Finished in 0.033 seconds with exit status 0 (successful).
+  INFO [713ff78b] Running /usr/bin/env mkdir -p /var/www/Symfony_Test/releases/20160715102116 as ubuntu@62.4.19.87
+ DEBUG [713ff78b] Command: cd /var/www/Symfony_Test/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env mkdir -p /var/www/Symfony_Test/releases/20160715102116 )
+  INFO [713ff78b] Finished in 0.159 seconds with exit status 0 (successful).
+  INFO [5486ee6a] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/Symfony_Test/releases/20160715102116 as ubuntu@62.4.19.87
+ DEBUG [5486ee6a] Command: cd /var/www/Symfony_Test/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git archive master | tar -x -f - -C /var/www/Symfony_Test/releases/20160715102116 )
+  INFO [5486ee6a] Finished in 0.154 seconds with exit status 0 (successful).
+ DEBUG [0fa30bfc] Running if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi as ubuntu@62.4.19.87
+ DEBUG [0fa30bfc] Command: if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi
+ DEBUG [0fa30bfc] Finished in 0.030 seconds with exit status 0 (successful).
+ DEBUG [de8e7659] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@62.4.19.87
+ DEBUG [de8e7659] Command: cd /var/www/Symfony_Test/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [de8e7659] 	1fde42c11335e6743a7330d993075563103d7001
+ DEBUG [de8e7659] Finished in 0.161 seconds with exit status 0 (successful).
+ DEBUG [7c08f052] Running if test ! -d /var/www/Symfony_Test/releases/20160715102116; then echo "Directory does not exist '/var/www/Symfony_Test/releases/20160715102116'" 1>&2; false; fi as ubuntu@62.4.19.87
+ DEBUG [7c08f052] Command: if test ! -d /var/www/Symfony_Test/releases/20160715102116; then echo "Directory does not exist '/var/www/Symfony_Test/releases/20160715102116'" 1>&2; false; fi
+ DEBUG [7c08f052] Finished in 0.155 seconds with exit status 0 (successful).
+  INFO [55632088] Running /usr/bin/env echo "1fde42c11335e6743a7330d993075563103d7001" >> REVISION as ubuntu@62.4.19.87
+ DEBUG [55632088] Command: cd /var/www/Symfony_Test/releases/20160715102116 && /usr/bin/env echo "1fde42c11335e6743a7330d993075563103d7001" >> REVISION
+  INFO [55632088] Finished in 0.148 seconds with exit status 0 (successful).
+  INFO [995a99bc] Running /usr/bin/env ln -s /var/www/Symfony_Test/releases/20160715102116 /var/www/Symfony_Test/releases/current as ubuntu@62.4.19.87
+ DEBUG [995a99bc] Command: /usr/bin/env ln -s /var/www/Symfony_Test/releases/20160715102116 /var/www/Symfony_Test/releases/current
+  INFO [995a99bc] Finished in 0.153 seconds with exit status 0 (successful).
+  INFO [577fe421] Running /usr/bin/env mv /var/www/Symfony_Test/releases/current /var/www/Symfony_Test as ubuntu@62.4.19.87
+ DEBUG [577fe421] Command: /usr/bin/env mv /var/www/Symfony_Test/releases/current /var/www/Symfony_Test
+  INFO [577fe421] Finished in 0.030 seconds with exit status 0 (successful).
+ DEBUG [d71aaaf1] Running /usr/bin/env ls -xtr /var/www/Symfony_Test/releases as ubuntu@62.4.19.87
+ DEBUG [d71aaaf1] Command: /usr/bin/env ls -xtr /var/www/Symfony_Test/releases
+ DEBUG [d71aaaf1] 	20160715102116
+ DEBUG [d71aaaf1] Finished in 0.156 seconds with exit status 0 (successful).
+ DEBUG [af59278a] Running if test ! -d /var/www/Symfony_Test/releases; then echo "Directory does not exist '/var/www/Symfony_Test/releases'" 1>&2; false; fi as ubuntu@62.4.19.87
+ DEBUG [af59278a] Command: if test ! -d /var/www/Symfony_Test/releases; then echo "Directory does not exist '/var/www/Symfony_Test/releases'" 1>&2; false; fi
+ DEBUG [af59278a] Finished in 0.155 seconds with exit status 0 (successful).
+  INFO [c6f2e2f3] Running /usr/bin/env echo "Branch master (at 1fde42c11335e6743a7330d993075563103d7001) deployed as release 20160715102116 by michaellotkowski" >> /var/www/Symfony_Test/revisions.log as ubuntu@62.4.19.87
+ DEBUG [c6f2e2f3] Command: cd /var/www/Symfony_Test/releases && /usr/bin/env echo "Branch master (at 1fde42c11335e6743a7330d993075563103d7001) deployed as release 20160715102116 by michaellotkowski" >> /var/www/Symfony_Test/revisions.log
+  INFO [c6f2e2f3] Finished in 0.030 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-15 11:23:56 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [08a14cf4] Running /usr/bin/env mkdir -p /tmp/Symfony_Test/ as ubuntu@62.4.19.87
+ DEBUG [08a14cf4] Command: /usr/bin/env mkdir -p /tmp/Symfony_Test/
+  INFO [08a14cf4] Finished in 0.332 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/Symfony_Test/git-ssh.sh 0.0%
+  INFO Uploading /tmp/Symfony_Test/git-ssh.sh 100.0%
+  INFO [87e0455e] Running /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh as ubuntu@62.4.19.87
+ DEBUG [87e0455e] Command: /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh
+  INFO [87e0455e] Finished in 0.026 seconds with exit status 0 (successful).
+  INFO [cb9ea34c] Running /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git as ubuntu@62.4.19.87
+ DEBUG [cb9ea34c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git )
+ DEBUG [cb9ea34c] 	1fde42c11335e6743a7330d993075563103d7001	refs/heads/master
+  INFO [cb9ea34c] Finished in 1.520 seconds with exit status 0 (successful).
+  INFO [00e14104] Running /usr/bin/env mkdir -p /var/www/Symfony_Test/shared /var/www/Symfony_Test/releases as ubuntu@62.4.19.87
+ DEBUG [00e14104] Command: /usr/bin/env mkdir -p /var/www/Symfony_Test/shared /var/www/Symfony_Test/releases
+  INFO [00e14104] Finished in 0.027 seconds with exit status 0 (successful).
+ DEBUG [8bfefb4e] Running [ -f /var/www/Symfony_Test/current/REVISION ] as ubuntu@62.4.19.87
+ DEBUG [8bfefb4e] Command: [ -f /var/www/Symfony_Test/current/REVISION ]
+ DEBUG [8bfefb4e] Finished in 0.026 seconds with exit status 0 (successful).
+ DEBUG [7130df28] Running /usr/bin/env cat /var/www/Symfony_Test/current/REVISION 2>/dev/null as ubuntu@62.4.19.87
+ DEBUG [7130df28] Command: /usr/bin/env cat /var/www/Symfony_Test/current/REVISION 2>/dev/null
+ DEBUG [7130df28] 	1fde42c11335e6743a7330d993075563103d7001
+ DEBUG [7130df28] Finished in 0.027 seconds with exit status 0 (successful).
+ DEBUG [a2af495d] Running [ -f /var/www/Symfony_Test/repo/HEAD ] as ubuntu@62.4.19.87
+ DEBUG [a2af495d] Command: [ -f /var/www/Symfony_Test/repo/HEAD ]
+ DEBUG [a2af495d] Finished in 0.026 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/Symfony_Test/repo
+ DEBUG [54d9741e] Running if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi as ubuntu@62.4.19.87
+ DEBUG [54d9741e] Command: if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi
+ DEBUG [54d9741e] Finished in 0.025 seconds with exit status 0 (successful).
+  INFO [650ce7ba] Running /usr/bin/env git remote update --prune as ubuntu@62.4.19.87
+ DEBUG [650ce7ba] Command: cd /var/www/Symfony_Test/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [650ce7ba] 	Fetching origin
+  INFO [650ce7ba] Finished in 1.698 seconds with exit status 0 (successful).
+ DEBUG [4dd9abb6] Running if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi as ubuntu@62.4.19.87
+ DEBUG [4dd9abb6] Command: if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi
+ DEBUG [4dd9abb6] Finished in 0.026 seconds with exit status 0 (successful).
+  INFO [9cc75a0a] Running /usr/bin/env mkdir -p /var/www/Symfony_Test/releases/20160715102358 as ubuntu@62.4.19.87
+ DEBUG [9cc75a0a] Command: cd /var/www/Symfony_Test/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env mkdir -p /var/www/Symfony_Test/releases/20160715102358 )
+  INFO [9cc75a0a] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO [dd3fe2c8] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/Symfony_Test/releases/20160715102358 as ubuntu@62.4.19.87
+ DEBUG [dd3fe2c8] Command: cd /var/www/Symfony_Test/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git archive master | tar -x -f - -C /var/www/Symfony_Test/releases/20160715102358 )
+  INFO [dd3fe2c8] Finished in 0.062 seconds with exit status 0 (successful).
+ DEBUG [6af75d03] Running if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi as ubuntu@62.4.19.87
+ DEBUG [6af75d03] Command: if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi
+ DEBUG [6af75d03] Finished in 0.058 seconds with exit status 0 (successful).
+ DEBUG [bdd20571] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@62.4.19.87
+ DEBUG [bdd20571] Command: cd /var/www/Symfony_Test/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [bdd20571] 	1fde42c11335e6743a7330d993075563103d7001
+ DEBUG [bdd20571] Finished in 0.059 seconds with exit status 0 (successful).
+ DEBUG [cf26a6a9] Running if test ! -d /var/www/Symfony_Test/releases/20160715102358; then echo "Directory does not exist '/var/www/Symfony_Test/releases/20160715102358'" 1>&2; false; fi as ubuntu@62.4.19.87
+ DEBUG [cf26a6a9] Command: if test ! -d /var/www/Symfony_Test/releases/20160715102358; then echo "Directory does not exist '/var/www/Symfony_Test/releases/20160715102358'" 1>&2; false; fi
+ DEBUG [cf26a6a9] Finished in 0.053 seconds with exit status 0 (successful).
+  INFO [b37e64b0] Running /usr/bin/env echo "1fde42c11335e6743a7330d993075563103d7001" >> REVISION as ubuntu@62.4.19.87
+ DEBUG [b37e64b0] Command: cd /var/www/Symfony_Test/releases/20160715102358 && /usr/bin/env echo "1fde42c11335e6743a7330d993075563103d7001" >> REVISION
+  INFO [b37e64b0] Finished in 0.040 seconds with exit status 0 (successful).
+  INFO [41fdfc1b] Running /usr/bin/env ln -s /var/www/Symfony_Test/releases/20160715102358 /var/www/Symfony_Test/releases/current as ubuntu@62.4.19.87
+ DEBUG [41fdfc1b] Command: /usr/bin/env ln -s /var/www/Symfony_Test/releases/20160715102358 /var/www/Symfony_Test/releases/current
+  INFO [41fdfc1b] Finished in 0.026 seconds with exit status 0 (successful).
+  INFO [4b1e280f] Running /usr/bin/env mv /var/www/Symfony_Test/releases/current /var/www/Symfony_Test as ubuntu@62.4.19.87
+ DEBUG [4b1e280f] Command: /usr/bin/env mv /var/www/Symfony_Test/releases/current /var/www/Symfony_Test
+  INFO [4b1e280f] Finished in 0.029 seconds with exit status 0 (successful).
+ DEBUG [376caa14] Running /usr/bin/env ls -xtr /var/www/Symfony_Test/releases as ubuntu@62.4.19.87
+ DEBUG [376caa14] Command: /usr/bin/env ls -xtr /var/www/Symfony_Test/releases
+ DEBUG [376caa14] 	20160715102116	20160715102358
+ DEBUG [376caa14] Finished in 0.028 seconds with exit status 0 (successful).
+ DEBUG [c2c45f7d] Running if test ! -d /var/www/Symfony_Test/releases; then echo "Directory does not exist '/var/www/Symfony_Test/releases'" 1>&2; false; fi as ubuntu@62.4.19.87
+ DEBUG [c2c45f7d] Command: if test ! -d /var/www/Symfony_Test/releases; then echo "Directory does not exist '/var/www/Symfony_Test/releases'" 1>&2; false; fi
+ DEBUG [c2c45f7d] Finished in 0.048 seconds with exit status 0 (successful).
+  INFO [30cc10c7] Running /usr/bin/env echo "Branch master (at 1fde42c11335e6743a7330d993075563103d7001) deployed as release 20160715102358 by michaellotkowski" >> /var/www/Symfony_Test/revisions.log as ubuntu@62.4.19.87
+ DEBUG [30cc10c7] Command: cd /var/www/Symfony_Test/releases && /usr/bin/env echo "Branch master (at 1fde42c11335e6743a7330d993075563103d7001) deployed as release 20160715102358 by michaellotkowski" >> /var/www/Symfony_Test/revisions.log
+  INFO [30cc10c7] Finished in 0.034 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-15 11:24:51 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c985c3e3] Running /usr/bin/env mkdir -p /tmp/Symfony_Test/ as ubuntu@62.4.19.87
+ DEBUG [c985c3e3] Command: /usr/bin/env mkdir -p /tmp/Symfony_Test/
+  INFO [c985c3e3] Finished in 0.304 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/Symfony_Test/git-ssh.sh 0.0%
+  INFO Uploading /tmp/Symfony_Test/git-ssh.sh 100.0%
+  INFO [fe5bf3cc] Running /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh as ubuntu@62.4.19.87
+ DEBUG [fe5bf3cc] Command: /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh
+  INFO [fe5bf3cc] Finished in 0.026 seconds with exit status 0 (successful).
+  INFO [acd8e838] Running /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git as ubuntu@62.4.19.87
+ DEBUG [acd8e838] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git )
+ DEBUG [acd8e838] 	1fde42c11335e6743a7330d993075563103d7001	refs/heads/master
+  INFO [acd8e838] Finished in 1.541 seconds with exit status 0 (successful).
+  INFO [a428d110] Running /usr/bin/env mkdir -p /var/www/Symfony_Test/shared /var/www/Symfony_Test/releases as ubuntu@62.4.19.87
+ DEBUG [a428d110] Command: /usr/bin/env mkdir -p /var/www/Symfony_Test/shared /var/www/Symfony_Test/releases
+  INFO [a428d110] Finished in 0.027 seconds with exit status 0 (successful).
+ DEBUG [87b86005] Running [ -f /var/www/Symfony_Test/current/REVISION ] as ubuntu@62.4.19.87
+ DEBUG [87b86005] Command: [ -f /var/www/Symfony_Test/current/REVISION ]
+ DEBUG [87b86005] Finished in 0.028 seconds with exit status 0 (successful).
+ DEBUG [cf9e90fe] Running /usr/bin/env cat /var/www/Symfony_Test/current/REVISION 2>/dev/null as ubuntu@62.4.19.87
+ DEBUG [cf9e90fe] Command: /usr/bin/env cat /var/www/Symfony_Test/current/REVISION 2>/dev/null
+ DEBUG [cf9e90fe] 	1fde42c11335e6743a7330d993075563103d7001
+ DEBUG [cf9e90fe] Finished in 0.028 seconds with exit status 0 (successful).
+ DEBUG [1ca39211] Running [ -f /var/www/Symfony_Test/repo/HEAD ] as ubuntu@62.4.19.87
+ DEBUG [1ca39211] Command: [ -f /var/www/Symfony_Test/repo/HEAD ]
+ DEBUG [1ca39211] Finished in 0.026 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/Symfony_Test/repo
+ DEBUG [1b5c722e] Running if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi as ubuntu@62.4.19.87
+ DEBUG [1b5c722e] Command: if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi
+ DEBUG [1b5c722e] Finished in 0.026 seconds with exit status 0 (successful).
+  INFO [530731c3] Running /usr/bin/env git remote update --prune as ubuntu@62.4.19.87
+ DEBUG [530731c3] Command: cd /var/www/Symfony_Test/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [530731c3] 	Fetching origin
+  INFO [530731c3] Finished in 1.393 seconds with exit status 0 (successful).
+ DEBUG [3f03951c] Running if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi as ubuntu@62.4.19.87
+ DEBUG [3f03951c] Command: if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi
+ DEBUG [3f03951c] Finished in 0.027 seconds with exit status 0 (successful).
+  INFO [5b857cb7] Running /usr/bin/env mkdir -p /var/www/Symfony_Test/releases/20160715102453 as ubuntu@62.4.19.87
+ DEBUG [5b857cb7] Command: cd /var/www/Symfony_Test/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env mkdir -p /var/www/Symfony_Test/releases/20160715102453 )
+  INFO [5b857cb7] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO [40f4b2b2] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/Symfony_Test/releases/20160715102453 as ubuntu@62.4.19.87
+ DEBUG [40f4b2b2] Command: cd /var/www/Symfony_Test/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git archive master | tar -x -f - -C /var/www/Symfony_Test/releases/20160715102453 )
+  INFO [40f4b2b2] Finished in 0.050 seconds with exit status 0 (successful).
+ DEBUG [2f890864] Running if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi as ubuntu@62.4.19.87
+ DEBUG [2f890864] Command: if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi
+ DEBUG [2f890864] Finished in 0.027 seconds with exit status 0 (successful).
+ DEBUG [fc3d1e3e] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@62.4.19.87
+ DEBUG [fc3d1e3e] Command: cd /var/www/Symfony_Test/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [fc3d1e3e] 	1fde42c11335e6743a7330d993075563103d7001
+ DEBUG [fc3d1e3e] Finished in 0.028 seconds with exit status 0 (successful).
+ DEBUG [66d0f263] Running if test ! -d /var/www/Symfony_Test/releases/20160715102453; then echo "Directory does not exist '/var/www/Symfony_Test/releases/20160715102453'" 1>&2; false; fi as ubuntu@62.4.19.87
+ DEBUG [66d0f263] Command: if test ! -d /var/www/Symfony_Test/releases/20160715102453; then echo "Directory does not exist '/var/www/Symfony_Test/releases/20160715102453'" 1>&2; false; fi
+ DEBUG [66d0f263] Finished in 0.026 seconds with exit status 0 (successful).
+  INFO [82e29f21] Running /usr/bin/env echo "1fde42c11335e6743a7330d993075563103d7001" >> REVISION as ubuntu@62.4.19.87
+ DEBUG [82e29f21] Command: cd /var/www/Symfony_Test/releases/20160715102453 && /usr/bin/env echo "1fde42c11335e6743a7330d993075563103d7001" >> REVISION
+  INFO [82e29f21] Finished in 0.028 seconds with exit status 0 (successful).
+  INFO [9ca2c4c1] Running /usr/bin/env ln -s /var/www/Symfony_Test/releases/20160715102453 /var/www/Symfony_Test/releases/current as ubuntu@62.4.19.87
+ DEBUG [9ca2c4c1] Command: /usr/bin/env ln -s /var/www/Symfony_Test/releases/20160715102453 /var/www/Symfony_Test/releases/current
+  INFO [9ca2c4c1] Finished in 0.028 seconds with exit status 0 (successful).
+  INFO [1ee34458] Running /usr/bin/env mv /var/www/Symfony_Test/releases/current /var/www/Symfony_Test as ubuntu@62.4.19.87
+ DEBUG [1ee34458] Command: /usr/bin/env mv /var/www/Symfony_Test/releases/current /var/www/Symfony_Test
+  INFO [1ee34458] Finished in 0.028 seconds with exit status 0 (successful).
+ DEBUG [b8a933c4] Running /usr/bin/env ls -xtr /var/www/Symfony_Test/releases as ubuntu@62.4.19.87
+ DEBUG [b8a933c4] Command: /usr/bin/env ls -xtr /var/www/Symfony_Test/releases
+ DEBUG [b8a933c4] 	20160715102116	20160715102358	20160715102453
+ DEBUG [b8a933c4] Finished in 0.028 seconds with exit status 0 (successful).
+ DEBUG [1aff126c] Running if test ! -d /var/www/Symfony_Test/releases; then echo "Directory does not exist '/var/www/Symfony_Test/releases'" 1>&2; false; fi as ubuntu@62.4.19.87
+ DEBUG [1aff126c] Command: if test ! -d /var/www/Symfony_Test/releases; then echo "Directory does not exist '/var/www/Symfony_Test/releases'" 1>&2; false; fi
+ DEBUG [1aff126c] Finished in 0.026 seconds with exit status 0 (successful).
+  INFO [4814886e] Running /usr/bin/env echo "Branch master (at 1fde42c11335e6743a7330d993075563103d7001) deployed as release 20160715102453 by michaellotkowski" >> /var/www/Symfony_Test/revisions.log as ubuntu@62.4.19.87
+ DEBUG [4814886e] Command: cd /var/www/Symfony_Test/releases && /usr/bin/env echo "Branch master (at 1fde42c11335e6743a7330d993075563103d7001) deployed as release 20160715102453 by michaellotkowski" >> /var/www/Symfony_Test/revisions.log
+  INFO [4814886e] Finished in 0.026 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-15 11:27:07 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c47de9ea] Running /usr/bin/env mkdir -p /tmp/Symfony_Test/ as ubuntu@62.4.19.87
+ DEBUG [c47de9ea] Command: /usr/bin/env mkdir -p /tmp/Symfony_Test/
+  INFO [c47de9ea] Finished in 0.300 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/Symfony_Test/git-ssh.sh 0.0%
+  INFO Uploading /tmp/Symfony_Test/git-ssh.sh 100.0%
+  INFO [2c4f3f3d] Running /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh as ubuntu@62.4.19.87
+ DEBUG [2c4f3f3d] Command: /usr/bin/env chmod +rx /tmp/Symfony_Test/git-ssh.sh
+  INFO [2c4f3f3d] Finished in 0.027 seconds with exit status 0 (successful).
+  INFO [1a4cfdc4] Running /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git as ubuntu@62.4.19.87
+ DEBUG [1a4cfdc4] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:DownMoney/SymfonyTest.git )
+ DEBUG [1a4cfdc4] 	1fde42c11335e6743a7330d993075563103d7001	refs/heads/master
+  INFO [1a4cfdc4] Finished in 1.436 seconds with exit status 0 (successful).
+  INFO [23cd9444] Running /usr/bin/env mkdir -p /var/www/Symfony_Test/shared /var/www/Symfony_Test/releases as ubuntu@62.4.19.87
+ DEBUG [23cd9444] Command: /usr/bin/env mkdir -p /var/www/Symfony_Test/shared /var/www/Symfony_Test/releases
+  INFO [23cd9444] Finished in 0.028 seconds with exit status 0 (successful).
+ DEBUG [c9a9529b] Running [ -f /var/www/Symfony_Test/current/REVISION ] as ubuntu@62.4.19.87
+ DEBUG [c9a9529b] Command: [ -f /var/www/Symfony_Test/current/REVISION ]
+ DEBUG [c9a9529b] Finished in 0.027 seconds with exit status 0 (successful).
+ DEBUG [a13163d3] Running /usr/bin/env cat /var/www/Symfony_Test/current/REVISION 2>/dev/null as ubuntu@62.4.19.87
+ DEBUG [a13163d3] Command: /usr/bin/env cat /var/www/Symfony_Test/current/REVISION 2>/dev/null
+ DEBUG [a13163d3] 	1fde42c11335e6743a7330d993075563103d7001
+ DEBUG [a13163d3] Finished in 0.029 seconds with exit status 0 (successful).
+ DEBUG [5fe703b1] Running [ -f /var/www/Symfony_Test/repo/HEAD ] as ubuntu@62.4.19.87
+ DEBUG [5fe703b1] Command: [ -f /var/www/Symfony_Test/repo/HEAD ]
+ DEBUG [5fe703b1] Finished in 0.027 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/Symfony_Test/repo
+ DEBUG [2b4d5769] Running if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi as ubuntu@62.4.19.87
+ DEBUG [2b4d5769] Command: if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi
+ DEBUG [2b4d5769] Finished in 0.026 seconds with exit status 0 (successful).
+  INFO [74278bf2] Running /usr/bin/env git remote update --prune as ubuntu@62.4.19.87
+ DEBUG [74278bf2] Command: cd /var/www/Symfony_Test/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [74278bf2] 	Fetching origin
+  INFO [74278bf2] Finished in 1.388 seconds with exit status 0 (successful).
+ DEBUG [b5c09cad] Running if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi as ubuntu@62.4.19.87
+ DEBUG [b5c09cad] Command: if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi
+ DEBUG [b5c09cad] Finished in 0.027 seconds with exit status 0 (successful).
+  INFO [7176e64b] Running /usr/bin/env mkdir -p /var/www/Symfony_Test/releases/20160715102709 as ubuntu@62.4.19.87
+ DEBUG [7176e64b] Command: cd /var/www/Symfony_Test/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env mkdir -p /var/www/Symfony_Test/releases/20160715102709 )
+  INFO [7176e64b] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO [729e95e1] Running /usr/bin/env git archive master | tar -x -f - -C /var/www/Symfony_Test/releases/20160715102709 as ubuntu@62.4.19.87
+ DEBUG [729e95e1] Command: cd /var/www/Symfony_Test/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git archive master | tar -x -f - -C /var/www/Symfony_Test/releases/20160715102709 )
+  INFO [729e95e1] Finished in 0.051 seconds with exit status 0 (successful).
+ DEBUG [a793b540] Running if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi as ubuntu@62.4.19.87
+ DEBUG [a793b540] Command: if test ! -d /var/www/Symfony_Test/repo; then echo "Directory does not exist '/var/www/Symfony_Test/repo'" 1>&2; false; fi
+ DEBUG [a793b540] Finished in 0.027 seconds with exit status 0 (successful).
+ DEBUG [52964816] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@62.4.19.87
+ DEBUG [52964816] Command: cd /var/www/Symfony_Test/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/Symfony_Test/git-ssh.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [52964816] 	1fde42c11335e6743a7330d993075563103d7001
+ DEBUG [52964816] Finished in 0.029 seconds with exit status 0 (successful).
+ DEBUG [5f73dba8] Running if test ! -d /var/www/Symfony_Test/releases/20160715102709; then echo "Directory does not exist '/var/www/Symfony_Test/releases/20160715102709'" 1>&2; false; fi as ubuntu@62.4.19.87
+ DEBUG [5f73dba8] Command: if test ! -d /var/www/Symfony_Test/releases/20160715102709; then echo "Directory does not exist '/var/www/Symfony_Test/releases/20160715102709'" 1>&2; false; fi
+ DEBUG [5f73dba8] Finished in 0.026 seconds with exit status 0 (successful).
+  INFO [e949ae4f] Running /usr/bin/env echo "1fde42c11335e6743a7330d993075563103d7001" >> REVISION as ubuntu@62.4.19.87
+ DEBUG [e949ae4f] Command: cd /var/www/Symfony_Test/releases/20160715102709 && /usr/bin/env echo "1fde42c11335e6743a7330d993075563103d7001" >> REVISION
+  INFO [e949ae4f] Finished in 0.028 seconds with exit status 0 (successful).
+ DEBUG [4c50c1b8] Running if test ! -d /var/www/Symfony_Test/releases/20160715102709; then echo "Directory does not exist '/var/www/Symfony_Test/releases/20160715102709'" 1>&2; false; fi as ubuntu@62.4.19.87
+ DEBUG [4c50c1b8] Command: if test ! -d /var/www/Symfony_Test/releases/20160715102709; then echo "Directory does not exist '/var/www/Symfony_Test/releases/20160715102709'" 1>&2; false; fi
+ DEBUG [4c50c1b8] Finished in 0.028 seconds with exit status 0 (successful).
+  INFO [0dd165be] Running /usr/bin/env composer install as ubuntu@62.4.19.87
+ DEBUG [0dd165be] Command: cd /var/www/Symfony_Test/releases/20160715102709 && /usr/bin/env composer install
+ DEBUG [0dd165be] 	Loading composer repositories with package information
+ DEBUG [0dd165be] 	Installing dependencies (including require-dev) from lock file
+ DEBUG [0dd165be] 	    Failed to download doctrine/lexer from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+ DEBUG [0dd165be] 	    Now trying to download from source
+ DEBUG [0dd165be] 	  - Installing doctrine/lexer (v1.0.1)
+ DEBUG [0dd165be] 	    Cloning 83893c552fd2045dd78aef794c31e694c37c0b8c
+ DEBUG [0dd165be] 	
+    Failed to download doctrine/annotations from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+    Now trying to download from source
+  - Installing doctrine/annotations (v1.2.7)
+ DEBUG [0dd165be] 	    Cloning f25c8aab83e0c3e976fd7d19875f198ccf2f7535
+ DEBUG [0dd165be] 	
+    Failed to download twig/twig from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+    Now trying to download from source
+  - Installing twig/twig (v1.24.1)
+    Cloning 3566d311a92aae4deec6e48682dc5a4528c4a512
+ DEBUG [0dd165be] 	
+    Failed to download symfony/polyfill-util from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+    Now trying to download from source
+  - Installing symfony/polyfill-util (v1.2.0)
+    Cloning ef830ce3d218e622b221d6bfad42c751d974bf99
+ DEBUG [0dd165be] 	
+    Failed to download paragonie/random_compat from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+    Now trying to download from source
+  - Installing paragonie/random_compat (v2.0.2)
+    Cloning 088c04e2f261c33bed6ca5245491cfca69195ccf
+ DEBUG [0dd165be] 	
+    Failed to download symfony/polyfill-php70 from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+    Now trying to download from source
+  - Installing symfony/polyfill-php70 (v1.2.0)
+    Cloning a42f4b6b05ed458910f8af4c4e1121b0101b2d85
+ DEBUG [0dd165be] 	
+    Failed to download symfony/polyfill-php56 from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+    Now trying to download from source
+  - Installing symfony/polyfill-php56 (v1.2.0)
+    Cloning 3edf57a8fbf9a927533344cef65ad7e1cf31030a
+ DEBUG [0dd165be] 	
+    Failed to download symfony/polyfill-mbstring from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+    Now trying to download from source
+  - Installing symfony/polyfill-mbstring (v1.2.0)
+    Cloning dff51f72b0706335131b00a7f49606168c582594
+ DEBUG [0dd165be] 	
+ DEBUG [0dd165be] 	    Failed to download symfony/symfony from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+ DEBUG [0dd165be] 	    Now trying to download from source
+ DEBUG [0dd165be] 	  - Installing symfony/symfony (v3.1.2)
+ DEBUG [0dd165be] 	    Cloning 2e98c829524e505a9561ac9e54fa715e8b79905e
+ DEBUG [0dd165be] 	
+ DEBUG [0dd165be] 	    Failed to download symfony/polyfill-intl-icu from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+    Now trying to download from source
+  - Installing symfony/polyfill-intl-icu (v1.2.0)
+    Cloning 0f8dc2c45f69f8672379e9210bca4a115cd5146f
+ DEBUG [0dd165be] 	
+    Failed to download psr/log from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+    Now trying to download from source
+  - Installing psr/log (1.0.0)
+    Cloning fe0936ee26643249e916849d48e3a51d5f5e278b
+ DEBUG [0dd165be] 	
+    Failed to download psr/cache from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+    Now trying to download from source
+  - Installing psr/cache (1.0.0)
+    Cloning 9e66031f41fbbdda45ee11e93c45d480ccba3eb3
+ DEBUG [0dd165be] 	
+ DEBUG [0dd165be] 	    Failed to download doctrine/inflector from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+    Now trying to download from source
+  - Installing doctrine/inflector (v1.1.0)
+    Cloning 90b2128806bfde671b6952ab8bea493942c1fdae
+ DEBUG [0dd165be] 	
+    Failed to download doctrine/collections from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+    Now trying to download from source
+  - Installing doctrine/collections (v1.3.0)
+    Cloning 6c1e4eef75f310ea1b3e30945e9f06e652128b8a
+ DEBUG [0dd165be] 	
+    Failed to download doctrine/cache from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+    Now trying to download from source
+  - Installing doctrine/cache (v1.6.0)
+    Cloning f8af318d14bdb0eff0336795b428b547bd39ccb6
+ DEBUG [0dd165be] 	
+ DEBUG [0dd165be] 	    Failed to download doctrine/common from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+ DEBUG [0dd165be] 	    Now trying to download from source
+ DEBUG [0dd165be] 	  - Installing doctrine/common (v2.6.1)
+ DEBUG [0dd165be] 	    Cloning a579557bc689580c19fee4e27487a67fe60defc0
+ DEBUG [0dd165be] 	
+ DEBUG [0dd165be] 	    Failed to download jdorn/sql-formatter from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+ DEBUG [0dd165be] 	    Now trying to download from source
+ DEBUG [0dd165be] 	  - Installing jdorn/sql-formatter (v1.2.17)
+ DEBUG [0dd165be] 	    Cloning 64990d96e0959dff8e059dfcdc1af130728d92bc
+ DEBUG [0dd165be] 	
+    Failed to download doctrine/doctrine-cache-bundle from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+    Now trying to download from source
+  - Installing doctrine/doctrine-cache-bundle (1.3.0)
+    Cloning 18c600a9b82f6454d2e81ca4957cdd56a1cf3504
+ DEBUG [0dd165be] 	
+ DEBUG [0dd165be] 	    Failed to download doctrine/dbal from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+ DEBUG [0dd165be] 	    Now trying to download from source
+ DEBUG [0dd165be] 	  - Installing doctrine/dbal (v2.5.4)
+ DEBUG [0dd165be] 	    Cloning abbdfd1cff43a7b99d027af3be709bc8fc7d4769
+ DEBUG [0dd165be] 	
+ DEBUG [0dd165be] 	    Failed to download doctrine/doctrine-bundle from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+ DEBUG [0dd165be] 	    Now trying to download from source
+ DEBUG [0dd165be] 	  - Installing doctrine/doctrine-bundle (1.6.3)
+ DEBUG [0dd165be] 	    Cloning fd51907c6c76acaa8a5234822a4f901c1500afc1
+ DEBUG [0dd165be] 	
+ DEBUG [0dd165be] 	    Failed to download doctrine/instantiator from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+ DEBUG [0dd165be] 	    Now trying to download from source
+ DEBUG [0dd165be] 	  - Installing doctrine/instantiator (1.0.5)
+ DEBUG [0dd165be] 	    Cloning 8e884e78f9f0eb1329e445619e04456e64d8051d
+ DEBUG [0dd165be] 	
+    Failed to download doctrine/orm from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+    Now trying to download from source
+  - Installing doctrine/orm (v2.5.4)
+    Cloning bc4ddbfb0114cb33438cc811c9a740d8aa304aab
+ DEBUG [0dd165be] 	
+ DEBUG [0dd165be] 	    Failed to download incenteev/composer-parameter-handler from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+ DEBUG [0dd165be] 	    Now trying to download from source
+ DEBUG [0dd165be] 	  - Installing incenteev/composer-parameter-handler (v2.1.2)
+ DEBUG [0dd165be] 	    Cloning d7ce7f06136109e81d1cb9d57066c4d4a99cf1cc
+ DEBUG [0dd165be] 	
+    Failed to download sensiolabs/security-checker from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+    Now trying to download from source
+  - Installing sensiolabs/security-checker (v3.0.2)
+    Cloning 21696b0daa731064c23cfb694c60a2584a7b6e93
+ DEBUG [0dd165be] 	
+ DEBUG [0dd165be] 	    Failed to download sensio/distribution-bundle from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+ DEBUG [0dd165be] 	    Now trying to download from source
+ DEBUG [0dd165be] 	  - Installing sensio/distribution-bundle (v5.0.7)
+ DEBUG [0dd165be] 	    Cloning a9c4723cbdbc6cf7fbfdfde3c639cb1943f0293a
+ DEBUG [0dd165be] 	
+ DEBUG [0dd165be] 	    Failed to download sensio/framework-extra-bundle from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+ DEBUG [0dd165be] 	    Now trying to download from source
+ DEBUG [0dd165be] 	  - Installing sensio/framework-extra-bundle (v3.0.16)
+ DEBUG [0dd165be] 	    Cloning 507a15f56fa7699f6cc8c2c7de4080b19ce22546
+ DEBUG [0dd165be] 	
+ DEBUG [0dd165be] 	    Failed to download monolog/monolog from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+ DEBUG [0dd165be] 	    Now trying to download from source
+ DEBUG [0dd165be] 	  - Installing monolog/monolog (1.19.0)
+ DEBUG [0dd165be] 	    Cloning 5f56ed5212dc509c8dc8caeba2715732abb32dbf
+ DEBUG [0dd165be] 	
+ DEBUG [0dd165be] 	    Failed to download symfony/monolog-bundle from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+ DEBUG [0dd165be] 	    Now trying to download from source
+ DEBUG [0dd165be] 	  - Installing symfony/monolog-bundle (2.11.1)
+ DEBUG [0dd165be] 	    Cloning e7caf4936c7be82bc6d68df87f1d23a0d5bf6e00
+ DEBUG [0dd165be] 	
+    Failed to download symfony/polyfill-apcu from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+    Now trying to download from source
+  - Installing symfony/polyfill-apcu (v1.2.0)
+    Cloning 6d58bceaeea2c2d3eb62503839b18646e161cd6b
+ DEBUG [0dd165be] 	
+ DEBUG [0dd165be] 	    Failed to download swiftmailer/swiftmailer from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+ DEBUG [0dd165be] 	    Now trying to download from source
+ DEBUG [0dd165be] 	  - Installing swiftmailer/swiftmailer (v5.4.3)
+ DEBUG [0dd165be] 	    Cloning 4cc92842069c2bbc1f28daaaf1d2576ec4dfe153
+ DEBUG [0dd165be] 	
+ DEBUG [0dd165be] 	    Failed to download symfony/swiftmailer-bundle from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+ DEBUG [0dd165be] 	    Now trying to download from source
+ DEBUG [0dd165be] 	  - Installing symfony/swiftmailer-bundle (v2.3.11)
+ DEBUG [0dd165be] 	    Cloning 5e1a90f28213231ceee19c953bbebc5b5b95c690
+ DEBUG [0dd165be] 	
+ DEBUG [0dd165be] 	    Failed to download sensio/generator-bundle from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+ DEBUG [0dd165be] 	    Now trying to download from source
+ DEBUG [0dd165be] 	  - Installing sensio/generator-bundle (v3.0.7)
+ DEBUG [0dd165be] 	    Cloning d1be460925376703a470a3ac6ec034eb7eab3892
+ DEBUG [0dd165be] 	
+ DEBUG [0dd165be] 	    Failed to download symfony/phpunit-bridge from dist: The zip extension and unzip command are both missing, skipping.
+The php.ini used by your command-line PHP is: /etc/php/7.0/cli/php.ini
+ DEBUG [0dd165be] 	    Now trying to download from source
+ DEBUG [0dd165be] 	  - Installing symfony/phpunit-bridge (v3.1.2)
+ DEBUG [0dd165be] 	    Cloning eeb3bf9a195df7552fdda46f4724a9442d157413
+ DEBUG [0dd165be] 	
+ DEBUG [0dd165be] 	paragonie/random_compat suggests installing ext-libsodium (Provides a modern crypto API that can be used to generate random bytes.)
+ DEBUG [0dd165be] 	symfony/polyfill-mbstring suggests installing ext-mbstring (For best performance)
+ DEBUG [0dd165be] 	symfony/polyfill-intl-icu suggests installing ext-intl (For best performance)
+ DEBUG [0dd165be] 	doctrine/doctrine-cache-bundle suggests installing symfony/security-acl (For using this bundle to cache ACLs)
+ DEBUG [0dd165be] 	sensio/framework-extra-bundle suggests installing symfony/psr-http-message-bridge (To use the PSR-7 converters)
+ DEBUG [0dd165be] 	monolog/monolog suggests installing aws/aws-sdk-php (Allow sending log messages to AWS services like DynamoDB)
+ DEBUG [0dd165be] 	monolog/monolog suggests installing doctrine/couchdb (Allow sending log messages to a CouchDB server)
+ DEBUG [0dd165be] 	monolog/monolog suggests installing ext-amqp (Allow sending log messages to an AMQP server (1.0+ required))
+ DEBUG [0dd165be] 	monolog/monolog suggests installing ext-mongo (Allow sending log messages to a MongoDB server)
+ DEBUG [0dd165be] 	monolog/monolog suggests installing graylog2/gelf-php (Allow sending log messages to a GrayLog2 server)
+ DEBUG [0dd165be] 	monolog/monolog suggests installing mongodb/mongodb (Allow sending log messages to a MongoDB server via PHP Driver)
+ DEBUG [0dd165be] 	monolog/monolog suggests installing php-amqplib/php-amqplib (Allow sending log messages to an AMQP server using php-amqplib)
+ DEBUG [0dd165be] 	monolog/monolog suggests installing php-console/php-console (Allow sending log messages to Google Chrome)
+ DEBUG [0dd165be] 	monolog/monolog suggests installing raven/raven (Allow sending log messages to a Sentry server)
+ DEBUG [0dd165be] 	monolog/monolog suggests installing rollbar/rollbar (Allow sending log messages to Rollbar)
+ DEBUG [0dd165be] 	monolog/monolog suggests installing ruflin/elastica (Allow sending log messages to an Elastic Search server)
+ DEBUG [0dd165be] 	Generating autoload files
+ DEBUG [0dd165be] 	> Incenteev\ParameterHandler\ScriptHandler::buildParameters
+ DEBUG [0dd165be] 	Creating the "app/config/parameters.yml" file
+ DEBUG [0dd165be] 	> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::buildBootstrap
+ DEBUG [0dd165be] 	> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::clearCache
+ DEBUG [0dd165be] 	PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\ClassNotFoundException: Attempted to load class "DOMDocument" from the global namespace.
+Did you forget a "use" statement? in /var/www/Symfony_Test/releases/20160715102709/vendor/symfony/symfony/src/Symfony/Component/Config/Util/XmlUtils.php:52
+Stack trace:
+#0 /var/www/Symfony_Test/releases/20160715102709/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/XmlFileLoader.php(263): Symfony\Component\Config\Util\XmlUtils::loadFile('/var/www/Symfon...', Array)
+#1 /var/www/Symfony_Test/releases/20160715102709/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/XmlFileLoader.php(41): Symfony\Component\DependencyInjection\Loader\XmlFileLoader->parseFileToDOM('/var/www/Symfon...')
+#2 /var/www/Symfony_Test/releases/20160715102709/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/DependencyInjection/FrameworkExtension.php(63): Symfony\Component\DependencyInjection\Loader\XmlFileLoader->load('web.xml')
+#3 /var/www/Symfony_Test/rel in /var/www/Symfony_Test/releases/20160715102709/vendor/symfony/symfony/src/Symfony/Component/Config/Util/XmlUtils.php on line 52
+ DEBUG [0dd165be] 	Script Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::clearCache handling the post-install-cmd event terminated with an exception
+
+ DEBUG [0dd165be] 	                                                                                                                                                                                                                                                    
+ DEBUG [0dd165be] 	  [RuntimeException]                                                                                                                                                                                                                                
+ DEBUG [0dd165be] 	  An error occurred when executing the "'cache:clear --no-warmup'" command:                                                                                                                                                                         
+ DEBUG [0dd165be] 	  PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\ClassNotFoundException: Attempted to load class "DOMDocument" from the global namespace.                                                                                             
+ DEBUG [0dd165be] 	  Did you forget a "use" statement? in /var/www/Symfony_Test/releases/20160715102709/vendor/symfony/symfony/src/Symfony/Component/Config/Util/XmlUtils.php:52                                                                                       
+ DEBUG [0dd165be] 	  Stack trace:                                                                                                                                                                                                                                      
+ DEBUG [0dd165be] 	  #0 /var/www/Symfony_Test/releases/20160715102709/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/XmlFileLoader.php(263): Symfony\Component\Config\Util\XmlUtils::loadFile('/var/www/Symfon...', Array)                    
+ DEBUG [0dd165be] 	  #1 /var/www/Symfony_Test/releases/20160715102709/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/XmlFileLoader.php(41): Symfony\Component\DependencyInjection\Loader\XmlFileLoader->parseFileToDOM('/var/www/Symfon...')  
+ DEBUG [0dd165be] 	  #2 /var/www/Symfony_Test/releases/20160715102709/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/DependencyInjection/FrameworkExtension.php(63): Symfony\Component\DependencyInjection\Loader\XmlFileLoader->load('web.xml')            
+ DEBUG [0dd165be] 	  #3 /var/www/Symfony_Test/rel in /var/www/Symfony_Test/releases/20160715102709/vendor/symfony/symfony/src/Symfony/Component/Config/Util/XmlUtils.php on line 52                                                                                    
+ DEBUG [0dd165be] 	  .                                                                                                                                                                                                                                                 
+ DEBUG [0dd165be] 	                                                                                                                                                                                                                                                    
+ DEBUG [0dd165be] 	
+ DEBUG [0dd165be] 	install [--prefer-source] [--prefer-dist] [--dry-run] [--dev] [--no-dev] [--no-custom-installers] [--no-autoloader] [--no-scripts] [--no-progress] [-v|vv|vvv|--verbose] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--ignore-platform-reqs] [--] [<packages>]...
+ DEBUG [0dd165be] 	
