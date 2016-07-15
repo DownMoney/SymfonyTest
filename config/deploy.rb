@@ -44,7 +44,6 @@ namespace :deploy do
       # Here we can do anything such as:
        within release_path do
          execute :composer, "install" # install dependencies
-         execute 'sudo chmod 777 -R /var/www'
        end
     end
   end
