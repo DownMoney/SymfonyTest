@@ -3,6 +3,8 @@ lock '3.5.0'
 
 set :application, 'Symfony_Test'
 set :repo_url, 'git@github.com:DownMoney/SymfonyTest.git'
+set :ssh_options, keys: ["config/deploy_id_rsa"] if File.exist?("config/deploy_id_rsa")
+
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp

@@ -1,9 +1,14 @@
 language: php
 php:
-  - '5.6'
-  - '7.0'
-  - hhvm
-  - nightly
-
+- '5.6'
+- '7.0'
+- hhvm
+- nightly
 install: composer install --dev
 script: phpunit --configuration phpunit.xml.dist
+env:
+  global:
+    secure: VgJYiD66i49b1c4WWbWhG8TfwT7YpuDNPkEITs+9vr+XMH97y6lVc7GqoOwxNAerysLc56/KDlS1d9jzOE/VeqDAp4XQMmZuPr6TSMIErr3++4ZGrFgnHa92/EAtGb04h1FzADc+ZcuCGEcyzYx+gtI3+7YCAa9h4pHsBJixh5bkmApSDe40cCg29GrRikoQSFU9v+pboz04hqLqOS4HmDPb4bUXajR4Ixli2d3Zaa3fdfk0bXpOlWvihRi7Hw3p7tuILZ34/j6J5UcKTnkNV0kleYvvL1IMJorxMlH6VrUXqtFQrFpHjdDfcMm+FNOTxa7QiTP0K8/5am31EKavvgUN1FcZC5zdi8klikbvOLtTeeq3Dd49iaDgNfXodTwxwic+Ea0khFnANcU31xmWA+DsMMjJCfQyDOtywN7FLk3y0mV8iOuWC13DxAo75FWNigbg+RWgymhJ1gcuk8Xhf7hnDYRsM4Fk6TR8a863RoQgfjIp51F+taGkznsYJnPU/SzwRh2y4mOAEnqPsymrSpfdI0WBuQ/5RKpg4F7Esbr5LYG4kDlj/q2AuNv4a0oG8HNi1bmothslIguIcrEV3EEmlTYDgHKGSDubCaK5+uDGsghJOGShZP7oKvgvYLff3TSULV3VIhvPRFSModa8IO7Dlc1xLGRBMEHAerkrXr4=
+after_success:
+  - "openssl aes-256-cbc -k $DEPLOY_KEY -in config/deploy_id_rsa_enc_travis -d -a -out config/deploy_id_rsa"
+  - "bundle exec cap deploy"
