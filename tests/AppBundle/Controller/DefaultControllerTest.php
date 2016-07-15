@@ -84,7 +84,7 @@ class DefaultControllerTest extends WebTestCase
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
     }
 
-    public function testUserAction()
+    public function testUserActionRedirectAnons()
     {
         $client = static::createClient();
 
@@ -92,8 +92,10 @@ class DefaultControllerTest extends WebTestCase
 
         $this->assertEquals(302, $client->getResponse()->getStatusCode());
         $this->assertRegExp('/\/login$/', $client->getResponse()->headers->get('location'));
+    }
 
-        //now check that you can see the site if you are authenticated
+    public function testUserActionAllowAuthenticated()
+    {
         $this->logIn();
         $crawler = $this->client->request('GET', '/user');
 
